@@ -1,0 +1,7 @@
+-   id: helm-ct
+    name: Run helm-ct on charts
+    description: This hook checks your helm charts with helm ct.
+    entry: helm-ct.sh
+    language: script
+    args:
+    - --all
